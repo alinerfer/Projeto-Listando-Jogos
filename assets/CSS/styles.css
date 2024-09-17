@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color-brand: RGB(21, 209, 85);
+    --bg-color-darkest: RGB(0, 0, 0);
+    --bg-color-dark: RGB(54, 54, 54);
+    --bg-color-mid: RGB(108, 108, 108);
+    --bg-color-light: RGB(218, 218, 218);
+    --bg-color-lighest: RGB(255, 255, 255);
+}
+
+img {
+    height: 50vh;
+}
+
+/* formatação do header  */
+.header {
+    width: 100%;
+    height: 8vh;
+    background-color: var(--bg-color-brand);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon1 {
+    margin: 5rem;
+    padding: 5rem;
+    font-size: 3rem;
+    color: var(--bg-color-darkest)
+}
+
+.icon1:hover {
+    color: var(--bg-color-lighest);
+    transition: .7s;
+}
+
+.header h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header li {
+    font-family: "Orbitron", sans-serif;
+    margin: 5rem;
+    padding: 5rem;
+    color: var(--bg-color-darkest);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bg-color-darkest);
+}
+
+a:hover {
+    color: var(--bg-color-lighest);
+    transition: .7s;
+}
+/* fim da formatação do header  */
+
+/* formatação da section  */
+.section {
+    width: 100%;
+    height: 95vh;
+    background-color: var(--bg-color-darkest);
+}
+
+.section h2 {
+    text-align: center;
+    padding: 5rem 3rem 3rem 3rem;
+    font-size: 2.5rem;
+    color: var(--bg-color-lighest);
+}
+
+.section p {
+    font-size: 2rem;
+    padding: 0 5rem 5rem 5rem;
+    text-align: center;
+    color: var(--bg-color-lighest);
+}
+
+.boxA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.boxA img {
+    width: 35%;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px 2px var(--bg-color-dark);
+}
+/* fim da formatação da section  */
+
+/* formatação do main  */
+.main {
+    width: 100%;
+    height: 40vh;
+    background-color: var(--bg-color-lighest);
+}
+
+.main h2 {
+    text-align: center;
+    padding: 5rem 3rem 3rem 3rem;
+    font-size: 2.5rem;
+    color: var(--bg-color-darkest);
+}
+
+.main p {
+    font-size: 2rem;
+    padding: 0 5rem 5rem 5rem;
+    text-align: center;
+}
+/* fim da formatação do main  */
+
+/* formatação do article  */
+.article {
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 50%;
+    height: 90%;
+    color: var(--bg-color-darkest);
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    font-size: 6vmin;
+    margin: 20px 0;
+}
+
+.box p {
+    width: 90%;
+    font-size: 3vmin;
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-form-item {
+    padding: 0 10px;
+    height: 9rem;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-form-item label {
+    font-size: 1.8rem;
+}
+
+input {
+    width: 100%;
+    height: 4rem;
+    padding-left: 4rem;
+    font-size: 1.8rem;
+}
+
+.iconbox {
+    position: relative;
+    top: 28px;
+    left: 15px;
+    font-size: 1.5rem;
+}
+
+input:focus {
+    outline-color: var(--bg-color-brand);
+}
+
+.box-form-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.box-form-button button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 5rem;
+    background-color: var(--bg-color-brand);
+    color: var(--bg-color-darkest);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    border: 0;
+}
+
+.arrow {
+    margin-left: 8px;
+}
+/* fim da formatação do article  */
+
+/* formatação do footer  */
+.footer {
+    width: 100%;
+    height: 8vh;
+    margin-top: 4rem;
+    background-color: var(--bg-color-darkest);
+    text-align: center;
+}
+
+.footer h2 {
+    color: var(--bg-color-lighest);
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/* fim da formatação do footer  */

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos Online</title>
+
+    <!-- chamada font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- chamada google-fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/CSS/styles.css">
+</head>
+
+<body>
+    <!-- início do header  -->
+    <header class="header">
+        <a href="./index.html"><i class="fa-solid fa-dice icon1"></i></a>
+        <h1>Iara Games</h1>
+        <ul>
+            <li><a href="./jogos.html">Jogos</a></li>
+        </ul>
+    </header>
+    <!-- fim do header      -->
+
+    <!-- início da section  -->
+    <section class="section">
+        <h2>Bem-vindo ao Iara Games!</h2>
+        <p>Explore um universo repleto de diversão e desafios. Em Iara Games, cada jogo oferece uma nova aventura.
+            Mergulhe em entretenimento digital e descubra momentos emocionantes e inesquecíveis.</p>
+
+        <div class="boxA">
+            <img src="./assets/images/pexels-lulizler-3165335.jpg" alt="mesa com fone de ouvido, teclado e controle de videogame" title="mesa com fone de ouvido, teclado e controle de videogame">
+            <img src="./assets/images/pexels-soumil-kumar-4325-735911.jpg" alt="imagem de uma mão tocando em um teclado" title="imagem de uma mão tocando em um teclado">
+        </div>
+    </section>
+    <!-- fim da section  -->
+
+    <!-- início do main  -->
+    <main class="main">
+        <h2>Antes da diversão...</h2>
+        <p>Precisamos que você realize o cadastro em nossa plataforma para comprovar que você é maior de 18 anos, mas
+            não se preocupe, só vai levar alguns minutinhos! Vamos lá?</p>
+    </main>
+    <!-- fim do main  -->
+
+    <!-- início do article  -->
+    <article class="article">
+        <div class="box">
+            <h2>Criar conta</h2>
+            <p>Criar uma conta no Iara Games é fácil e rápido. Em poucos minutos, você se cadastra e já começa a desfrutar de todos os nossos jogos e recursos.</p>
+            <img src="./assets/images/click-here-67.svg" alt="mulher tocando em um botão na tela" title="mulher tocoando em um botão na tela">
+        </div>
+
+        <div class="box">
+            <h2>Preencha seus dados</h2>
+            <form id="dados" name="dados" method="post" action="" class="form">
+                <div class="box-form-item">
+                    <label for="nome">Nome</label>
+                    <i class="fa-solid fa-user iconbox"></i>
+                    <input type="text" placeholder="Ex: Fulano" id="nome" name="nome" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="sobrenome">Sobrenome</label>
+                    <i class="fa-solid fa-user-tag iconbox"></i>
+                    <input type="text" placeholder="Ex: de Tal" id="sobrenome" name="sobrenome" required>
+                </div>
+                
+
+                <div class="box-form-item">
+                    <label for="usuario">Usuário</label>
+                    <i class="fa-solid fa-user-secret iconbox"></i>
+                    <input type="text" placeholder="Ex: user1234" id="usuario" name="usuario" required>
+                </div>
+                
+
+                <div class="box-form-item">
+                    <label for="senha">Senha</label>
+                    <i class="fa-solid fa-key iconbox"></i>
+                    <input type="password" placeholder="Ex: 1234!@#$%" id="senha" name="senha" required>
+                </div>
+            
+
+                <div class="box-form-item">
+                    <label for="email">Email</label>
+                    <i class="fa-solid fa-envelope iconbox"></i>
+                    <input type="email" placeholder="Ex: seuemail@email.com" id="email" name="email" required>
+                </div>
+                
+
+                <div class="box-form-item">
+                    <label for="datanascimento">Data de Nascimento</label>
+                    <i class="fa-solid fa-cake-candles iconbox"></i>
+                    <input type="date" id="datanascimento" name="datanascimento" required>
+                </div>
+                
+
+                <div class="box-form-button">
+                    <button type="submit">Criar conta <i class="fa-solid fa-arrow-right arrow"></i></button>
+                </div>
+            </form>
+        </div>
+    </article>
+    <!-- fim do article  -->
+
+     <!-- início do footer  -->
+     <footer class="footer">
+        <h2>Todos os direitos reservados</h2>
+    </footer>
+    <!-- fim do footer  -->
+
+</body>
+
+</html>
