@@ -104,6 +104,7 @@ a:hover {
 
 /* formatação do main  */
 .main {
+    background-color: var(--bg-color-mid);
     display: flexbox;
     align-items: center;
     justify-content: center;
